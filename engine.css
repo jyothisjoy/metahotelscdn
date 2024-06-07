@@ -1,0 +1,441 @@
+/* VARIABLES FOR BOOKING ENGINE */
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+
+:root {
+    --corporative-color: #abb8c3; /* primary button bg */
+    --text-color__over-corporative-color: #fff; /* primary button color */
+    --corporative-text-color: #abb8c3; /* links color */
+    --border-radius: 0px;
+    --background-color: #abb8c3;
+    --button-color: #333;
+	--background-opacity-color: #abb8c3;
+  	--booking-engine-background: #fff;
+  	 /*--background-opacity-color: rgba(174, 145, 85, 0.5); */
+}
+
+/* Fonts */
+body.bookingstep p, body.bookingstep h1, body.bookingstep h2, body.bookingstep h3, body.bookingstep h4, body.bookingstep, body.club p, body.club h1, body.club h2, body.club h3, body.club h4, body.club{
+	font-family: Roboto;
+}
+
+/* engine 2023 fixes */
+div[data-role="bookingquery"] span[data-role="content"],
+div[data-role="login"] span[data-role="content"],
+div[data-role="account"] span[data-role="content"] {
+    color: inherit;
+}
+
+.mi-be-datepicker-select .DateRangePicker_picker,
+.mi-be .mi-dropdown .mi-dropdown-layout {
+    z-index: 1050;
+}
+
+.mi-be
+    .mi-be-multiroom-select
+    .mi-be-multiroom-dropdown
+    .mi-be-multiroom-footer
+    .mi-be-multiroom-footer-add,
+.mi-be
+    .mi-be-multiroom-select
+    .mi-be-multiroom-dropdown
+    ul
+    li
+    .mi-be-multiroom-title
+    button {
+    padding: 0px;
+}
+
+/*BOOKING ENGINE PERKS*/
+
+.booking-engine-hotel-perks {
+	width: 100%;
+  color: var(--text-color__over-corporative-color);
+  text-align: center;
+}
+
+.booking-engine-hotel-perks p {
+    margin: 0px;
+    padding: 5px 10px 0px 5px;
+    background: var(--background-opacity-color);
+  	font-size: 20px !important;
+}
+
+/* BOOKING ENGINE */
+.booking-engine-wrapper {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.booking-engine .mi-be form {
+    background: var(--background-color);
+    padding: 5px;
+    width: 100%;
+}
+
+body.bookingstep .booking-engine .mi-be form, body.club .mi-be form{
+    background: var(--background-color);
+    padding: 5px;
+    width: 100%;
+}
+
+.mi-be form 
+
+[data-mirai-engine="mirai_be"] .mi-be-chain-field,
+[data-mirai-engine="mirai_be"] .DateRangePickerInput,
+[data-mirai-engine="mirai_be"] .mi-be-multiroom-field,
+[data-mirai-engine="mirai_be"] .mi-be-chain-field{
+    border-right: 1px solid #ccc;
+}
+
+[class^="mi-"] .mi-s-button,
+[class^="mi-"] .mi-s-color-button,
+.mi-be .mi-be-book-btn,
+.mi-rs .mi-rs-cart-btn,
+.mi-rs .mi-rs-add-btn,
+.mi-rs .mi-na-option-date-btn,
+.mi-rs .mi-na-option-hotel-btn,
+.mi-rs .mi-cf-form-data-btn,
+button.mi-modal-close-btn,
+.mi-rs .mi-rs-rate-select-room-btn,
+.mi-be-mobile
+    .mi-be-modal
+    .mi-be-multiroom-footer
+    .mi-be-multiroom-footer-confirm,
+.mi-be-mobile .mi-be-modal .mi-be-modal-footer .mi-be-date-picker-confirm {
+    background: var(--corporative-color);
+}
+
+body.bookingstep [class^="mi-"] .mi-s-button,
+body.bookingstep [class^="mi-"] .mi-s-color-button,
+body.bookingstep .mi-rs .mi-rs-cart-btn,
+body.bookingstep .mi-rs .mi-rs-add-btn,
+body.bookingstep .mi-rs .mi-na-option-date-btn,
+body.bookingstep .mi-rs .mi-na-option-hotel-btn,
+body.bookingstep .mi-rs .mi-cf-form-data-btn,
+body.bookingstep button.mi-modal-close-btn,
+body.bookingstep .mi-rs .mi-rs-rate-select-room-btn,
+body.bookingstep
+    .mi-be-mobile
+    .mi-be-modal
+    .mi-be-multiroom-footer
+    .mi-be-multiroom-footer-confirm,
+body.bookingstep
+    .mi-be-mobile
+    .mi-be-modal
+    .mi-be-modal-footer
+    .mi-be-date-picker-confirm {
+    background: var(--corporative-color);
+    color: var(--text-color__over-corporative-color);
+}
+
+[class^="mi-"] .mi-s-button:hover,
+[class^="mi-"] .mi-s-color-button:hover,
+.mi-be .mi-be-book-btn:hover,
+.mi-rs .mi-rs-cart-btn:hover,
+.mi-rs .mi-rs-add-btn:hover,
+.mi-rs .mi-na-option-date-btn:hover,
+.mi-rs .mi-na-option-hotel-btn:hover,
+.mi-rs .mi-cf-form-data-btn:hover,
+button.mi-modal-close-btn:hover,
+.mi-rs .mi-rs-rate-select-room-btn:hover,
+.mi-be-mobile
+    .mi-be-modal
+    .mi-be-multiroom-footer
+    .mi-be-multiroom-footer-confirm:hover,
+.mi-be-mobile
+    .mi-be-modal
+    .mi-be-modal-footer
+    .mi-be-date-picker-confirm:hover {
+    background: var(--corporative-color);
+}
+
+.mi-be-modal-no-visible {
+    display: none;
+}
+
+.mi-be .mi-be-datepicker-select .DateRangePickerInput {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.mi-be input[type="text"],
+.mi-rs input[type="text"],
+.mi-be textarea,
+.mi-rs textarea,
+.mi-be input[type="text"],
+.mi-rs input[type="text"],
+.mi-be textarea,
+.mi-rs textarea,
+.mi-be form label,
+.mi-be form input,
+.mi-be form button,
+.mi-be form select,
+.mi-be form textarea {
+    font-size: 16px !important;
+}
+
+.mi-be .mi-be-promo-field label input,
+.mi-be label,
+.mi-be legend {
+    font-weight: 400 !important;
+}
+
+/*Club Settings*/
+
+.club-advantages{
+	text-align: center;
+}
+.club-advantages ul{
+	list-style: none;
+}
+body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__access-wrapper{
+  	position: absolute;
+  	top: 35px;
+  	right: 20px;
+}
+
+.mi-club-login__access-wrapper .mi-club-login__access-text,
+.mi-ico-login-profile-light:before {
+    color: var(--corporative-color);
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected_span {
+    background: var(--corporative-color) !important;
+    color: var(--text-color__over-corporative-color) !important;
+}
+button.mi-be-button button.mi-s-color-link {
+    color: var(--text-color__over-corporative-color) !important;
+}
+.CalendarMonthGrid {
+    width: 100% !important;
+}
+.mi-be.mi-be-mobile
+    .mi-be-modal
+    .mi-be-modal-header
+    button.mi-be-modal-clear-date {
+    top: 5px;
+}
+.mi-be.mi-be-mobile .mi-be-modal .mi-be-modal-header button.mi-be-modal-close,
+.mi-be.mi-be-mobile
+    .mi-be-modal
+    .mi-be-modal-header
+    button.mi-be-modal-clear-date {
+    color: var(--corporative-color);
+    background: transparent;
+}
+
+
+/* BOOKING ENGINE STEP LOGO */
+
+body.bookingstep #logo,
+body.bookingstep .logo {
+    text-align: center;
+}
+body.bookingstep #logo img,
+body.bookingstep .logo img {
+    max-width: 175px;
+    padding: 20px;
+}
+body.bookingstep .mi-be .mi-be-book-btn{
+	background: var(--button-color);
+  	padding: 6px 50px;
+    margin: 0px;
+}
+
+body.bookingstep .mi-club-login__access-wrapper {
+    right: 20px;
+    top: 35px;
+    position: absolute;
+}
+.mi-s-corp-color, .mi-s-wrapper-corp-color a, .mi-s-color-link, .mi-s-color-link-wrapper a, .mi-rs .mi-rs-room-occupation-btn, .mi-rs .mi-rs-room-detail-btn, .mi-rs-rate-see-more-btn, .mi-rs-suggestion-btn, .react-tabs [role=tab][aria-selected=true], .react-tabs [role=tab]:hover, .mi-rs-modal-occupation-btn:hover .mi-rs-occupation-text-legend span:first-child, .mi-rs-modal-occupation-btn.selected .mi-rs-occupation-text-legend span:first-child, .mi-rs-modal-occupation-btn.people:hover, .mi-rs-modal-occupation-btn.people.selected, .mi-rs-back-to-room-selection, .mi-na-view-all-results, .mi-rs-cart-item-edit-btn, .mi-be-datepicker-info-panel .mi-be-datepicker-clear-dates button, .mi-be .mi-be-multiroom-select .mi-be-multiroom-dropdown ul li .mi-be-multiroom-title .mi-be-multiroom-remove, .mi-be .mi-be-multiroom-select .mi-be-multiroom-dropdown .mi-be-multiroom-footer .mi-be-multiroom-footer-add, .mi-na-option-hotel > h4, .mi-rs .mi-cancelation-payment-link, .mi-rs .mi-privacy-policy-link, .mi-rs .mi-cf-form-data-link-back, .mi-rs .mi-cf-error-link-back, .mi-cf-form-data form .mi-cf-form-data-additionals div[class*="mi-cf-form-data-additionals-"] a, .mi-rs .mi-rc-btn, .mi-rc-reservation-address .mi-rc-reservation-address-mail-link, .mi-rc-reservation-address .mi-rc-reservation-address-web-link, .mi-rs .mi-rc-reservation-code .mi-rc-reservation-code-expired-link, .mi-be-modal .mi-be-modal-header button.mi-be-modal-clear-date{
+	color: var(--corporative-color);
+}
+
+
+/*CLUB BUTTONS*/
+.mi-club-login__access.club-login__access {
+    background: transparent !important;
+}
+
+.mi-club-login__access.club-login__access:hover {
+    background: var(--corporative-color) !important;
+    padding: 10px;
+}
+
+.mi-club-login__access-wrapper
+    .mi-club-login__access.club-login__access:hover
+    .mi-club-login__access-text,
+.mi-club-login__access-wrapper
+    .mi-club-login__access.club-login__access:hover
+    .mi-ico-login-profile-light:before {
+    color: var(--text-color__over-corporative-color);
+}
+
+/*STYLES TO FIX CONFLICTS*/
+
+.mi-be-datepicker-select
+    .DateRangePickerInput
+    .DateRangePickerInput_calendarIcon {
+    padding: 0px;
+    background: transparent;
+    color: var(--corporative-color);
+}
+
+.mi-be-datepicker-select .DateRangePickerInput .DateInput .DateInput_input,
+.mi-be .mi-be-promo-field label input {
+    border: none !important;
+}
+
+.mi-be .mi-dropdown .mi-dropdown-button > * {
+    margin-bottom: 0px;
+}
+
+.mi-be-promo-field > label {
+    margin-bottom: 0px;
+}
+
+.mi-be button {
+    border: none !important;
+}
+
+.mi-club-login__access.club-login__access{
+	padding: 10px !important;
+}
+
+.mi-be.mi-be-mobile .mi-be-datepicker-select .DateRangePickerInput .DateRangePickerInput_calendarIcon, .mi-be.mi-be-mobile .mi-be-multiroom-field span.mi-ico-dropdown, .mi-be.mi-be-mobile .mi-be-promo-field span.mi-ico-code{
+    font-size: 1.4em !important;
+}
+.mi-rs .mi-powered-by-mirai{
+    display: none;
+}
+@media only screen and (min-width: 767px) {
+    .booking-engine .mi-be > form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      	background: var(--booking-engine-background);
+    }
+
+    .booking-engine-wrapper {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mi-be .mi-be-chain-field label.mi-dropdown-placeholder {
+        min-width: 200px;
+    }
+    .booking-engine-wrapper {
+        display: none;
+    }
+  	.mi-be .mi-be-book-btn{
+		padding: 1px 50px;
+        margin: 5px;
+	}
+  .mi-be .mi-be-chain-field, .mi-be .DateRangePickerInput, .mi-be .mi-be-multiroom-field, .mi-be .mi-be-promo-field{
+    padding: 6px 10px;
+  }
+  .mi-be form{
+  	background: var(--booking-engine-background);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    .booking-engine {
+        width: 100%;
+    }
+
+    .mi-be .mi-be-chain-field,
+    .mi-be .DateRangePickerInput,
+    .mi-be .mi-be-multiroom-field,
+    .mi-be .mi-be-promo-field {
+        padding: 5px 5px 5px 15px;
+    }
+
+    .mi-be .mi-be-book-btn {
+        padding: 5px 0px;
+    }
+
+    .booking-engine-inner {
+        padding-bottom: 0px !important;
+    }
+
+    .mi-be.mi-be-mobile .mi-be-chain-field,
+    .mi-be.mi-be-mobile .DateRangePickerInput,
+    .mi-be.mi-be-mobile .mi-be-multiroom-field,
+    .mi-be.mi-be-mobile .mi-be-promo-field {
+        margin-bottom: 2px;
+    }
+
+    .mi-club-login__access.club-login__access {
+        flex-direction: row;
+        padding: 0px;
+        background-color: transparent !important;
+    }
+
+    .mi-be:not(.mi-be-mobile) form {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        min-width: 320px;
+    }
+
+    .mi-be .mi-be-chain-field,
+    .mi-be .DateRangePickerInput,
+    .mi-be .mi-be-multiroom-field,
+    .mi-be .mi-be-promo-field {
+        margin-right: 0px;
+    }
+    .mi-be.mi-be-mobile
+        .mi-dropdown
+        .mi-dropdown-button
+        .mi-ico-select-dropdown {
+        top: 40%;
+    }
+    .mi-be .DateInput input,
+    .mi-be.mi-be-mobile
+        .mi-be-datepicker-select
+        .DateRangePickerInput
+        .DateInput
+        .DateInput_input {
+        text-align: left;
+    }
+    .booking-engine-wrapper .booking-engine-inner {
+        width: 100%;
+    }
+    .mi-club-login__access-wrapper .mi-club-login__access-text,
+    .mi-ico-login-profile-light:before, .mim-club-login__access-text, .mim-club-login__access-icon {
+        color: var(--corporative-color);
+    }
+      button.mim-club-login__access{
+        background: transparent !important;
+      }
+    .infochat_floatmain {
+        bottom: 150px !important;
+    }
+    .fixed-booking-engine{
+		bottom: -10px;
+	}
+	.mi-be-multiroom-select, .mi-be-promo-field{
+		width: 50%;
+		display: inline-block !important;
+	}
+	.mi-ico-code, .mi-ico-dropdown{
+		display: none !important;
+	}
+	.mi-be.mi-be-mobile .mi-dropdown .mi-dropdown-button .mi-ico-select-dropdown{
+		top: 40%;
+	}
+}
