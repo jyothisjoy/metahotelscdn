@@ -440,6 +440,6 @@ body.bookingstep .mi-club-login__access-wrapper {
 	}
 }
 /* Custom Settings */
-.cmplz-btn .cmplz-manage-consent{
+.cmplz-btn.cmplz-manage-consent{
     display: none;
 }
