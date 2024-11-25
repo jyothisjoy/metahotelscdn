@@ -443,3 +443,6 @@ body.bookingstep .mi-club-login__access-wrapper {
 .cmplz-btn.cmplz-manage-consent{
     display: none;
 }
+html, body{
+    overflow-x: hidden;
+}
