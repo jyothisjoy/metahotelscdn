@@ -4,18 +4,6 @@
     src: url(https://fonts.googleapis.com/css?family=Roboto);
 }
 
-:root {
-    --corporative-color: #abb8c3; /* primary button bg */
-    --text-color__over-corporative-color: #fff; /* primary button color */
-    --corporative-text-color: #abb8c3; /* links color */
-    --border-radius: 0px;
-    --background-color: #abb8c3;
-    --button-color: #333;
-	--background-opacity-color: #abb8c3;
-  	--booking-engine-background: #fff;
-  	 /*--background-opacity-color: rgba(174, 145, 85, 0.5); */
-}
-
 /* Fonts */
 body.bookingstep p, body.bookingstep h1, body.bookingstep h2, body.bookingstep h3, body.bookingstep h4, body.bookingstep, body.club p, body.club h1, body.club h2, body.club h3, body.club h4, body.club{
 	font-family: Roboto;
@@ -442,7 +430,4 @@ body.bookingstep .mi-club-login__access-wrapper {
 /* Custom Settings */
 .cmplz-btn.cmplz-manage-consent{
     display: none;
-}
-html, body{
-    overflow-x: hidden;
 }
