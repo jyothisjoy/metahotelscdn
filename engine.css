@@ -251,6 +251,12 @@ body.bookingstep .mi-club-login__access-wrapper {
 	color: var(--corporative-color);
 }
 
+.mi-modal .mi-save-option-btn{
+    background:var(--button-color);
+}
+.mi-modal .miSettingsBtn{
+    color: var(--button-color);
+}
 
 /*CLUB BUTTONS*/
 .mi-club-login__access.club-login__access {
