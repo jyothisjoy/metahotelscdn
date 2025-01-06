@@ -314,6 +314,15 @@ body.bookingstep .mi-club-login__access-wrapper {
 .mi-rs .mi-powered-by-mirai{
     display: none;
 }
+.mi-modal .mi-save-option-btn{
+    background: var(--corporative-color) !important;
+}
+.mi-modal .miSettingsBtn{
+    color: var(--corporative-color) !important;
+}
+.mi-rs-modal-occupation-btn:hover, .mi-rs-modal-occupation-btn.selected, .react-tabs [role=tab][aria-selected=true], .mi-be .mi-be-multiroom-select .mi-be-multiroom-dropdown ul li .mi-be-multiroom-option-adult span.react-numeric-input b, .mi-be .mi-be-multiroom-select .mi-be-multiroom-dropdown ul li .mi-be-multiroom-option-children span.react-numeric-input b, .mi-radio-container input[type="radio"]:checked + .mi-radio-ico:before, .mi-checkbox-container input[type="checkbox"]:checked + .mi-checkbox-ico:before, .mi-be.mi-be-mobile .mi-be-modal .mi-be-multiroom-footer .mi-be-multiroom-footer-add, .mi-be.mi-be-mobile .mi-be-modal .mi-be-multiroom-footer .mi-be-multiroom-footer-confirm{
+    border-color: var(--corporative-color) !important;
+}
 @media only screen and (min-width: 767px) {
     .booking-engine .mi-be > form {
         display: flex;
@@ -436,4 +445,10 @@ body.bookingstep .mi-club-login__access-wrapper {
 /* Custom Settings */
 .cmplz-btn.cmplz-manage-consent{
     display: none;
+}
+.cmplz-btn.cmplz-accept{
+    background: var(--corporative-color) !important;
+}
+.cmplz-cookiebanner .cmplz-links .cmplz-link{
+    color: var(--corporative-color) !important;
 }
