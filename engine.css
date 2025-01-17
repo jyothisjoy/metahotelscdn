@@ -209,6 +209,10 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
 .CalenderDay_hovered_span{
     background: #f2f2f2 !important
 }
+.CalendarDay__blocked_minimum_nights, .CalendarDay__selected_span{
+    background-color: var(--corporative-color) !important;
+    color: #fff !important;
+}
 button.mi-be-button button.mi-s-color-link {
     color: var(--text-color__over-corporative-color) !important;
 }
@@ -338,10 +342,6 @@ body.bookingstep .mi-club-login__access-wrapper {
 .mi-club-login__forgot-password, .mi-club-login__signup-link, .mi-bsmodal-header__close{
     background-color: transparent !important;
     color: var(--corporative-color) !important;
-}
-.CalendarDay__blocked_minimum_nights, .CalendarDay__selected_span{
-    background-color: var(--corporative-color) !important;
-    color: #fff !important;
 }
 
 @media only screen and (min-width: 767px) {
