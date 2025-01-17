@@ -198,7 +198,7 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
     color: var(--corporative-color);
 }
 
-.CalendarDay__selected,
+/* .CalendarDay__selected,
 .CalendarDay__selected_span {
     background: var(--corporative-color) !important;
     color: var(--text-color__over-corporative-color) !important;
@@ -212,7 +212,7 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
 .CalendarDay__blocked_minimum_nights, .CalendarDay__selected_span{
     background-color: var(--corporative-color) !important;
     color: #fff !important;
-}
+} */
 button.mi-be-button button.mi-s-color-link {
     color: var(--text-color__over-corporative-color) !important;
 }
