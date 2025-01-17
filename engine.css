@@ -203,6 +203,12 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
     background: var(--corporative-color) !important;
     color: var(--text-color__over-corporative-color) !important;
 }
+.mi-be .mi-be-datapicker-prices td.CalendarDay.CalendarDay__default{
+    background: #fff;   
+}
+.CalenderDay_hovered_span{
+    background: #f2f2f2
+}
 button.mi-be-button button.mi-s-color-link {
     color: var(--text-color__over-corporative-color) !important;
 }
@@ -323,6 +329,18 @@ body.bookingstep .mi-club-login__access-wrapper {
 .mi-rs-modal-occupation-btn:hover, .mi-rs-modal-occupation-btn.selected, .react-tabs [role=tab][aria-selected=true], .mi-be .mi-be-multiroom-select .mi-be-multiroom-dropdown ul li .mi-be-multiroom-option-adult span.react-numeric-input b, .mi-be .mi-be-multiroom-select .mi-be-multiroom-dropdown ul li .mi-be-multiroom-option-children span.react-numeric-input b, .mi-radio-container input[type="radio"]:checked + .mi-radio-ico:before, .mi-checkbox-container input[type="checkbox"]:checked + .mi-checkbox-ico:before, .mi-be.mi-be-mobile .mi-be-modal .mi-be-multiroom-footer .mi-be-multiroom-footer-add, .mi-be.mi-be-mobile .mi-be-modal .mi-be-multiroom-footer .mi-be-multiroom-footer-confirm{
     border-color: var(--corporative-color) !important;
 }
+
+/* Login Form */
+
+.mi-form label{
+    width: 100%;
+}
+.mi-club-login__forgot-password, .mi-club-login__signup-link{
+    background-color: transparent;
+    color: var(--corporative-color);
+}
+
+
 @media only screen and (min-width: 767px) {
     .booking-engine .mi-be > form {
         display: flex;
