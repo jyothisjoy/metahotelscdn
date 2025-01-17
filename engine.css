@@ -204,10 +204,10 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
     color: var(--text-color__over-corporative-color) !important;
 }
 .mi-be .mi-be-datapicker-prices td.CalendarDay.CalendarDay__default{
-    background: #fff;   
+    background: #fff !important;   
 }
 .CalenderDay_hovered_span{
-    background: #f2f2f2
+    background: #f2f2f2 !important
 }
 button.mi-be-button button.mi-s-color-link {
     color: var(--text-color__over-corporative-color) !important;
@@ -336,8 +336,8 @@ body.bookingstep .mi-club-login__access-wrapper {
     width: 100%;
 }
 .mi-club-login__forgot-password, .mi-club-login__signup-link{
-    background-color: transparent;
-    color: var(--corporative-color);
+    background-color: transparent !important;
+    color: var(--corporative-color) !important;
 }
 
 
