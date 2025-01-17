@@ -335,11 +335,14 @@ body.bookingstep .mi-club-login__access-wrapper {
 .mi-form label{
     width: 100%;
 }
-.mi-club-login__forgot-password, .mi-club-login__signup-link{
+.mi-club-login__forgot-password, .mi-club-login__signup-link, .mi-bsmodal-header__close{
     background-color: transparent !important;
     color: var(--corporative-color) !important;
 }
-
+.CalendarDay__blocked_minimum_nights, .CalendarDay__selected_span{
+    background-color: var(--corporative-color) !important;
+    color: #fff !important;
+}
 
 @media only screen and (min-width: 767px) {
     .booking-engine .mi-be > form {
