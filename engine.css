@@ -201,6 +201,9 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
     padding: 12px !important;
     background-color: #fff !important;
 }
+.CalendarDay__blocked_minimum_nights, .CalendarDay__hovered_span{
+    background-color: #ccc !important;
+}
 /* .CalendarDay__selected,
 .CalendarDay__selected_span {
     background: var(--corporative-color) !important;
