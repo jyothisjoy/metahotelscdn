@@ -207,22 +207,10 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
 .CalendarDay__selected_span, .CalendarDay__selected_end, .CalendarDay__selected_start{
     background-color: var(--corporative-color) !important;
     color: var(--text-color__over-corporative-color) !important;
-
 }
-/* .CalendarDay__selected,
-.CalendarDay__selected_span {
-    background: var(--corporative-color) !important;
+.mi-be-datepicker-clear-dates{
+    background-color: transparent !important;
 }
-.mi-be .mi-be-datapicker-prices td.CalendarDay.CalendarDay__default{
-    background: #fff !important;   
-}
-.CalenderDay_hovered_span{
-    background: #f2f2f2 !important
-}
-.CalendarDay__blocked_minimum_nights, .CalendarDay__selected_span{
-    background-color: var(--corporative-color) !important;
-    color: #fff !important;
-} */
 button.mi-be-button button.mi-s-color-link {
     color: var(--text-color__over-corporative-color) !important;
 }
@@ -279,6 +267,35 @@ body.bookingstep .mi-club-login__access-wrapper {
 }
 
 /*CLUB BUTTONS*/
+.mi-ico-login-profile-light:before{
+	
+}
+.mi-club-login__access.club-login__access{
+	padding: 0px !important;
+}
+.mi-club-login__access.club-login__access:hover{
+	background: transparent !important;
+}
+.mi-club-login__access-wrapper .mi-club-login__access-text{
+	width: 0px;
+	transition-duration: 1s;
+	position: absolute;
+	text-transform: none;
+}
+.mi-club-login__access-wrapper:hover .mi-club-login__access-text{
+	width: 100%;
+	transition-duration: 1s;
+}
+.mi-club-login__access-wrapper .mi-club-login__access-icon{
+	transition-duration: 1s;
+}
+.mi-club-login__access-wrapper:hover .mi-club-login__access-icon{
+	transition-duration: 1s;
+	padding-right: 60px;
+}
+.mi-club-login__access-icon{
+	font-size: 1.2rem !important;
+}
 .mi-club-login__access.club-login__access {
     background: transparent !important;
 }
