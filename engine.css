@@ -199,7 +199,7 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
 }
 .CalendarDay{
     padding: 12px !important;
-    background: #fff;
+    background-color: #fff !important;
 }
 /* .CalendarDay__selected,
 .CalendarDay__selected_span {
