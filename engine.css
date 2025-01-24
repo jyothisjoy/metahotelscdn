@@ -198,7 +198,8 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
     color: var(--corporative-color);
 }
 .CalendarDay{
-    padding: 12px !important
+    padding: 12px !important;
+    background: #fff;
 }
 /* .CalendarDay__selected,
 .CalendarDay__selected_span {
