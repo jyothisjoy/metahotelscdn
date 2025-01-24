@@ -197,7 +197,12 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
 .mi-ico-login-profile-light:before {
     color: var(--corporative-color);
 }
-
+.DayPicker_transitionContainer_1, .DayPicker_1, .DayPicker_1 > div > div{
+    width: 985px !important
+}
+.mi-be .mi-be-datapicker-prices .DayPicker_weekHeader_li{
+    width: 4.7em !important;
+}
 /* .CalendarDay__selected,
 .CalendarDay__selected_span {
     background: var(--corporative-color) !important;
