@@ -201,10 +201,10 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
     padding: 12px !important;
     background-color: #fff !important;
 }
-.CalendarDay__blocked_minimum_nights, .CalendarDay__hovered_span{
+.CalendarDay__blocked_minimum_nights, .CalendarDay__hovered_span, .CalendarDay:hover{
     background-color: #ccc !important;
 }
-.CalendarDay__selected_span, .CalendarDay__selected_end{
+.CalendarDay__selected_span, .CalendarDay__selected_end, .CalendarDay__selected_start{
     background-color: var(--corporative-color) !important;
     color: var(--text-color__over-corporative-color) !important;
 
