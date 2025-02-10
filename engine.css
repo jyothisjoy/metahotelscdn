@@ -343,10 +343,6 @@ body.bookingstep .mi-club-login__access-wrapper {
 .mi-be button {
     border: none !important;
 }
-.mi-be-button, .mi-rs button, .mi-modal button{
-    background: transparent !important;
-    color: var(--corporative-color) !important;
-}
 .mi-club-login__access.club-login__access{
 	padding: 10px !important;
 }
