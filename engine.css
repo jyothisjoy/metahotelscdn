@@ -217,9 +217,6 @@ body.bookingstep .mi-club-login__access-wrapper, body.club .mi-club-login__acces
 button.mi-be-button button.mi-s-color-link {
     color: var(--text-color__over-corporative-color) !important;
 }
-.CalendarMonthGrid {
-    width: 100% !important;
-}
 .mi-be.mi-be-mobile
     .mi-be-modal
     .mi-be-modal-header
@@ -234,8 +231,11 @@ button.mi-be-button button.mi-s-color-link {
     color: var(--corporative-color);
     background: transparent;
 }
-
-
+@media only screen and (min-width: 767px) {
+    .CalendarMonthGrid {
+        width: 100% !important;
+    }
+}
 /* BOOKING ENGINE STEP LOGO */
 
 body.bookingstep #logo,
