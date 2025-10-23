@@ -1,0 +1,113 @@
+/* ============================================
+   BOOKING ENGINE STYLES
+   ============================================ */
+
+/* CSS Custom Properties */
+:root {
+    --mirai-finder-padding: 0px 10px;
+}
+
+/* ============================================
+   FORM ELEMENTS
+   ============================================ */
+
+/* Checkbox Input Styling */
+._3qK-PW_checkbox input._3qK-PW_input {
+    padding: 10px;
+}
+
+/* Input Field Styling */
+.I2Uiuq_input.JiK2PW_input {
+    padding: 0px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* ============================================
+   TEXT STYLING
+   ============================================ */
+
+/* White Text Utility */
+.color-white p {
+    color: #fff !important;
+}
+
+/* ============================================
+   MOBILE BOOKING ENGINE
+   ============================================ */
+
+/* Mobile Booking Engine Container */
+.be-mobile {
+    position: fixed;
+    bottom: 0;
+    width: 100% !important;
+    background: var(--corporative-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    z-index: 100;
+}
+
+/* Mobile Booking Engine Text */
+.be-mobile p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* ============================================
+   FINDER COMPONENT
+   ============================================ */
+
+/* Finder Button Styling */
+.YRq8BG_finder:not(.YRq8BG_column):not(.YRq8BG_compact) .YRq8BG_button {
+    max-height: 35px !important;
+    min-height: 35px !important;
+}
+
+/* ============================================
+   HIDDEN ELEMENTS
+   ============================================ */
+
+/* Hide Powered By and Consent Elements */
+.QsP7Ma_powered,
+.QsP7Ma_powered *,
+.cmplz-manage-consent {
+    display: none;
+}
+
+/* ============================================
+   CHAT WIDGET POSITIONING
+   ============================================ */
+
+/* Chat Widget Positioning */
+.infochat_floatmain {
+    bottom: 80px !important;
+}
+
+.infochat_custommain,
+.infochat_floatmain,
+#widget123_container {
+    z-index: 100 !important;
+}
+
+#widget123_container {
+    bottom: 135px !important;
+    left: 0px !important;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Desktop Styles */
+@media only screen and (min-width: 767px) {
+    /* Hide mobile booking engine on desktop */
+    .be-mobile {
+        display: none;
+    }
+}
