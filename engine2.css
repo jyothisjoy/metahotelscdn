@@ -111,3 +111,16 @@
         display: none;
     }
 }
+
+/* ============================================
+   OTHER DESIGN ELEMENTS
+   ============================================ */
+
+body:not(.home) .makemytrip{
+    display: none;
+}
+@media only screen and (max-width: 1660px) {
+    body:not(.home) #widget123_container{
+        display: none;
+    }
+}
