@@ -23,6 +23,10 @@
     border: none !important;
 }
 
+.Uta_jq_inputBorder{
+    padding-left: 0;
+}
+
 /* ============================================
    TEXT STYLING
    ============================================ */
@@ -98,6 +102,10 @@
 #widget123_container {
     bottom: 135px !important;
     left: 0px !important;
+}
+
+direct-chat{
+    bottom: 80px !important;
 }
 
 /* ============================================
