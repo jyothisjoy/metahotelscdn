@@ -502,3 +502,6 @@ body.bookingstep .mi-club-login__access-wrapper {
 .cmplz-cookiebanner .cmplz-links .cmplz-link{
     color: var(--corporative-color) !important;
 }
+#widget123_container{
+    z-index: 999 !important;
+}
