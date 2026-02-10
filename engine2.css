@@ -27,6 +27,12 @@
     padding-left: 0;
 }
 
+.mi-modal .mi-save-option-btn{
+    background-color: var(--corporative-color) !important;
+}
+.mi-modal .miSettingsBtn{
+    color: var(--corporative-color) !important;
+}
 /* ============================================
    TEXT STYLING
    ============================================ */
