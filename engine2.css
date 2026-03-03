@@ -95,23 +95,15 @@
    ============================================ */
 
 /* Chat Widget Positioning */
-.infochat_floatmain {
-    bottom: 80px !important;
-}
 
-.infochat_custommain,
-.infochat_floatmain,
-#widget123_container {
+#widget123_container{
     z-index: 100 !important;
-}
-
-#widget123_container {
     bottom: 135px !important;
     left: 0px !important;
 }
 
-direct-chat{
-    bottom: 80px !important;
+#directchat-widget .widget-root, .widget-root{
+    bottom: 95px !important;
 }
 
 /* ============================================
