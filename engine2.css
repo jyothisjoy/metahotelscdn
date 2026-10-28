@@ -96,7 +96,7 @@
 	margin-top: -5px;
 }
 @media only screen and (max-width: 767px) {
-    #directchat-widget{
+    #directchat-widget > div{
         bottom: 200px !important;  
     }
 }
