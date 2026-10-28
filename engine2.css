@@ -97,7 +97,7 @@
 }
 @media only screen and (max-width: 767px) {
     #directchat-widget{
-        display: none !important;    
+        bottom: 200px !important;  
     }
 }
 
