@@ -117,6 +117,10 @@
     bottom: 95px !important;
 }
 
+.directchat-widget-scope .widget-root{
+    bottom: 180px !important;
+}
+
 /* ============================================
    RESPONSIVE DESIGN
    ============================================ */
