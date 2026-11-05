@@ -122,7 +122,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    span.chat-widget__bubble{
+    .directchat-widget-scope .chat-widget__bubble{
         display: none !important;
     }
 }
